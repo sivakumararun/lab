@@ -1,0 +1,5 @@
+browser->server: HTTP post https://studies.cs.helsinki.fi/exampleapp/notes 
+with Data and time 
+browser->server: writes the content to the Database
+server->browser: returns the successful operation.
+browser->self: display the comments based on the time. 
